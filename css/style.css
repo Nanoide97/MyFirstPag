@@ -1,0 +1,250 @@
+
+.colorParrafo {
+    letter-spacing: 4px;
+    font-size: large;
+    color:black;
+    text-align:left;
+    text-decoration: rgb(0, 0, 0);
+    text-transform: uppercase;
+    word-spacing: normal;
+    background-color: #414345;
+}
+
+footer{
+    color: #f7f1e3;
+    font-size: large;
+    font-family: 'Open sans';
+    line-height: normal;
+    text-align: center center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    width: 100%;
+}
+
+.table{
+    color:black;
+    font-size: medium;
+    text-decoration: black;
+}
+
+.form{
+    color: blue;
+    font-size: medium;
+    text-decoration: black;
+    font-family: 'Open sans';
+}
+
+.imagesGalery{
+    color:black;
+    background-color:#353b48;
+    font-size: xx-large;
+    text-decoration: black;
+    font-weight: normal;
+    background-position: center center;
+    letter-spacing: 5px;
+}
+
+.redeSociales{
+    color:black;
+    background-color:#f7f1e3;
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+.parrafoCopy{
+    color:black;
+    font-size: medium;
+    background-color:#f7f1e3;
+    font-family: 'Open sans';
+    padding: 10px;
+    margin: 1px;
+}
+
+.imagenFondo{
+    background-image: url(../imagenes/pexels-pixabay-159497.jpg);
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    font-size: 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.imagenInicio{
+    background-position:left;
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#414345;
+    opacity: 0.9;
+}
+
+.barra{
+    float: left;
+    font-weight: 2px;
+    margin-right: 5px;
+}
+
+.ulNormal{
+    list-style-type: none;
+    list-style-position: inside;
+    list-style: none;
+    letter-spacing: normal;
+    word-spacing: none;
+}
+
+body{
+    font-family: 'Open sans';
+    background-image: linear-gradient(to bottom, #232526, #414345);
+
+}
+
+.formularioContacto{
+    color:black;
+    background-position: left;
+    background-color: #93B5C6;
+}
+
+.navegacion{
+	width: 100%;
+	margin: 1;
+	background:#bdc3c7;
+    font-size: xx-large;
+}
+
+.navegacion ul{
+	list-style: none;
+    
+}
+
+.menu{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    background-color:#bdc3c7;
+    padding: 15px;
+    width: 900px;
+    
+}
+
+.menu  li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu  li  a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: white;
+	transition: all .3s;
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.padreFlex3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.padreflex4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+}
+.padreFlex5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+}
+.hijoFlex4{
+    order: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+    flex: 1;
+}
+.hijoFlex5{
+    order: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+    flex: 2;
+}
+
+h1{
+    color: #dfe4ea;
+}
+h4{
+    color: #f7f1e3;
+}
+
+.section3 {
+    grid-area: parrafo;
+    background-color: #bdc3c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    align-self: start;
+}
+
+.section3 p {
+    width: 80%;
+    font-size: 20px;
+    background-color:#bdc3c7;
+}
+
+.section2 {
+    grid-area: imagenes;
+    background-color: #bdc3c7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+    justify-self: end;
+}
+
+.redesSociales{
+    color: #bdc3c7;
+}
+
+.animate__animated.animate__heartBeat {
+    --animate-duration: 5s;
+    --animate-delay: 2s;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
